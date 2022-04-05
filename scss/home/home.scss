@@ -1,0 +1,25 @@
+.content {
+  //   background-color: yellowgreen;
+  padding: 50px;
+  .products {
+    width: 900px;
+    // background-color: red;
+    min-height: 50px;
+    margin: 0 auto;
+    .product {
+      display: flex;
+      //   align-items: center;
+      justify-content: space-between;
+      margin-bottom: 100px;
+      .prod-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: saddlebrown;
+      }
+      .prod-desc {
+        width: 500px;
+      }
+    }
+  }
+}
